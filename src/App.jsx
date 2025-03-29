@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_URI = 'http://localhost:8000/doors';
+const API_URI = 'http://localhost:9090/doors';
 
 const UpdateItem = () => {
     const [itemId, setItemId] = useState('');
